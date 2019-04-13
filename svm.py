@@ -87,15 +87,6 @@ def polynomial_kernel(irisdata):
     print("CLASSIFICATION REPORT FOR POLYNOMIAL KERNEL")
     print(classification_report(y_test,y_pred))
 
-    # X = np.array(X)
-    # y = np.array(y)
-    # print(X.shape)
-    # print(y.shape)
-
-    # Z = svclassifier.predict(X)
-    # Z = Z.reshape(X.shape)
-    # print(Z.shape)
-
 
 def gaussian_kernel(irisdata):
     # TODO
